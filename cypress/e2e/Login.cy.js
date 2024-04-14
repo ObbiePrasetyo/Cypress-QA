@@ -34,7 +34,7 @@ describe("Login Scenarios", () => {
   });
 
   // Login Sebagai Superadmin dengan Username dan password yang benar.
-  it("ULogin as Superadmin - Superadmin.company", () => {
+  it("Login as Superadmin - Superadmin.company", () => {
     cy.get("#Input_UsernameVal").type("Superadmin.company");
     cy.get("#Input_PasswordVal").type("123456");
     cy.get(".btn").click();
